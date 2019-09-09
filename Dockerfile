@@ -1,9 +1,9 @@
 #FROM quartus_lite
 FROM chriz2600/quartus-lite
 
-ENV https_proxy http://192.168.1.19:3128
-ENV http_proxy http://192.168.1.19:3128
-ENV ftp_proxy http://192.168.1.19:3128
+#ENV https_proxy http://192.168.1.19:3128
+#ENV http_proxy http://192.168.1.19:3128
+#ENV ftp_proxy http://192.168.1.19:3128
 ENV num_threads 8
 
 RUN echo "deb [check-valid-until=no] http://cdn-fastly.deb.debian.org/debian jessie main" > /etc/apt/sources.list.d/jessie.list
